@@ -1,4 +1,3 @@
-# Tokens
 tokenList = {
     "keywords":{
         'import': 0,
