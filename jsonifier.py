@@ -12,23 +12,24 @@ class Token:
 
     def get_token(self):
         return [self.type, self.value]
+    
+
 
 
 # i is the string in the tokens list
 def jsonifier(tokens):
-    for i in dummy_thicc_token_temp:
-        if i[0] in SCLTokens.KEYWORDS:
-            dummy_thicc_token_temp.append(Token("Keyword", i))
-        elif i[0] in SCLTokens.LITERAL_TYPES:
-            dummy_thicc_token_temp.append(Token("Literal", i))
-        elif i[0] in SCLTokens.OPERATORS:
-            dummy_thicc_token_temp.append(Token("Operator", i))
-        elif i[0] in SCLTokens.DELIMITERS:
-            dummy_thicc_token_temp.append(Token("Delimiter", i))
+    for token in tokens:
+        if token in SCLTokens.KEYWORDS:
+            dummy_thicc_token_temp.append(Token("Keyword", token["Value"]))
+        elif token in SCLTokens.LITERAL_TYPES:
+            dummy_thicc_token_temp.append(Token("Literal", token["Value"]))
+        elif token in SCLTokens.OPERATORS:
+            dummy_thicc_token_temp.append(Token("Operator", token["Value"]))
+        elif token in SCLTokens.DELIMITERS:
+            dummy_thicc_token_temp.append(Token("Delimiter", token["Value"]))
         else:
-            dummy_thicc_token_temp.append(Token("Identifier", i))
+            dummy_thicc_token_temp.append(Token("Identifier", token["Value"]))
     
-    print(dummy_thicc_token_temp)
     return dummy_thicc_token_temp
 
 def create_json_doc():
