@@ -31,11 +31,11 @@ def jsonifier(tokens):
     
     return dummy_thicc_token_temp
 
-def create_json_doc(tokens):
+def create_json_doc(tokens, filename):
     token = jsonifier(tokens)
     # for i in token:
     #         token += { "Type" : i.type, "Value": i.token}
     
-    with open("Token_JSON.json", 'w') as f:
+    with open(filename +"_Token_JSON.json", 'w') as f:
         json.dump(token, f, indent=4)
         
