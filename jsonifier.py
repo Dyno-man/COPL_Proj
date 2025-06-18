@@ -3,8 +3,6 @@
 from token_classifier import SCLTokens
 import json 
 
-dummy_thicc_token_temp = []
-
 class Token:
     def __init__(self, type, value):
         self.type = type
@@ -18,6 +16,7 @@ class Token:
 
 # i is the string in the tokens list
 def jsonifier(tokens):
+    dummy_thicc_token_temp = []
     for token in tokens:
         if token in SCLTokens.KEYWORDS:
             dummy_thicc_token_temp.append(Token("Keyword", token["Value"]))
@@ -32,10 +31,10 @@ def jsonifier(tokens):
     
     return dummy_thicc_token_temp
 
-def create_json_doc():
-    token = []
-    for i in dummy_thicc_token_temp:
-            token += { "Type" : i.type, "Value": i.token}
+def create_json_doc(tokens):
+    token = jsonifier(tokens)
+    # for i in token:
+    #         token += { "Type" : i.type, "Value": i.token}
     
     with open("Token_JSON.json", 'w') as f:
         json.dump(token, f, indent=4)

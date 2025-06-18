@@ -69,7 +69,7 @@ def main():
 
     IDENTIFIERS = identifiers
 
-    jsonifier(tokens)
+    create_json_doc(tokens)
 
     print("Tokens:")
     for token in tokens:
