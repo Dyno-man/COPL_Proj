@@ -13,8 +13,10 @@ IDENTIFIERS = SCLTokens.IDENTIFIERS
 
 # Combine regex patterns
 token_specification = [
+    ("KEYWORD",    r"\*/"),
     ("NUMBER",     r'\d+(\.\d+)?'),
     ("STRING",     r'"[^"\n]*"'),
+    ("APOSTROPHE", r"'[^'\n]*'"),
     ("ID",         r'[A-Za-z_]\w*'),
     ("OP",         '|'.join(map(re.escape, OPERATORS))),
     ("DELIM",      '|'.join(map(re.escape, DELIMITERS))),
@@ -74,7 +76,7 @@ def main():
             code = f.read()
 
         tokens, identifiers = tokenize(code)
-        jsonifier(tokens)
+        create_json_doc(tokens, sclFile)
 
     else:
         files = os.listdir(sclFile)
@@ -83,12 +85,12 @@ def main():
                 with open((sclFile + "/" + file), 'r') as f:
                     code = f.read()
                 tokens, identifiers = tokenize(code)
-                jsonifier(tokens)
+                create_json_doc(tokens, file)
 
 
-    print("Tokens:")
-    for token in tokens:
-        print(token)
+    #print("Tokens:")
+    #for token in tokens:
+      #  print(token)
 
 
 if __name__ == "__main__":
