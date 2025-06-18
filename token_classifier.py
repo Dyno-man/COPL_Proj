@@ -50,3 +50,5 @@ class SCLTokens:
     ]
     
     DELIMITERS = ["(", ")", "[", "]", "{", "}"]
+
+    IDENTIFIERS = []

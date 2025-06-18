@@ -2,6 +2,7 @@ import sys
 import json
 import re
 from token_classifier import SCLTokens
+from jsonifier import *
 
 KEYWORDS = SCLTokens.KEYWORDS
 KEYWORDS_WITHOUT_IDENTIFIERS = SCLTokens.KEYWORDS_WITHOUT_IDENTIFIERS
@@ -9,6 +10,7 @@ KEYWORDS_WITH_IDENTIFIERS = SCLTokens.KEYWORDS_WITH_IDENTIFIERS
 LITERAL_TYPES = SCLTokens.LITERAL_TYPES
 OPERATORS = SCLTokens.OPERATORS
 DELIMITERS = SCLTokens.DELIMITERS
+IDENTIFIERS = SCLTokens.IDENTIFIERS
 
 # Combine regex patterns
 token_specification = [
@@ -64,6 +66,10 @@ def main():
         code = f.read()
 
     tokens, identifiers = tokenize(code)
+
+    IDENTIFIERS = identifiers
+
+    jsonifier(tokens)
 
     print("Tokens:")
     for token in tokens:
