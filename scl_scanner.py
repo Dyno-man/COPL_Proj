@@ -1,7 +1,6 @@
+import os
 import sys
-import json
 import re
-from token_classifier import SCLTokens
 from jsonifier import *
 
 KEYWORDS = SCLTokens.KEYWORDS
@@ -36,7 +35,15 @@ def tokenize(code):
         type = match.lastgroup
         value = match.group()
 
-        if type == "NUMBER": # Handles numbers
+        if type == "ID":  # Handles identifiers and keywords
+            if value in KEYWORDS:
+                type = "KEYWORD"
+            elif value in LITERAL_TYPES:
+                type = "LITERAL"
+            else:
+                type = "IDENTIFIER"
+                identifiers.add(value)
+        elif type == "NUMBER": # Handles numbers
             value = float(value) if '.' in value else int(value)
         elif type == "STRING": # Handles string literals
             type = "STRING_LITERAL"
@@ -62,14 +69,22 @@ def tokenize(code):
 def main():
     sclFile = sys.argv[1]
 
-    with open(sclFile, 'r') as f:
-        code = f.read()
+    if os.path.isfile(sclFile):
+        with open(sclFile, 'r') as f:
+            code = f.read()
 
-    tokens, identifiers = tokenize(code)
+        tokens, identifiers = tokenize(code)
+        jsonifier(tokens)
 
-    IDENTIFIERS = identifiers
+    else:
+        files = os.listdir(sclFile)
+        for file in files:
+            if file.endswith('.scl'):
+                with open((sclFile + "/" + file), 'r') as f:
+                    code = f.read()
+                tokens, identifiers = tokenize(code)
+                jsonifier(tokens)
 
-    create_json_doc(tokens)
 
     print("Tokens:")
     for token in tokens:
