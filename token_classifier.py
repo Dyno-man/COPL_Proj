@@ -40,7 +40,6 @@ KEYWORDS_WITH_IDENTIFIERS = [
     "using",        
 ]
 
-
 LITERAL_TYPES = ["icon", "hcon", "fcon", "string", "letter", "mtrue", "mfalse"]
 
 OPERATORS = [
@@ -49,3 +48,5 @@ OPERATORS = [
 ]
 
 DELIMITERS = ["(", ")", "[", "]", "{", "}"]
+
+IDENTIFIERS = []
