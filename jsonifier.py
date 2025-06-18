@@ -33,18 +33,10 @@ def jsonifier(tokens):
     return dummy_thicc_token_temp
 
 def create_json_doc():
-    token = {}
+    token = []
     for i in dummy_thicc_token_temp:
             token += { "Type" : i.type, "Value": i.token}
-
-    try:
-        with open("Token_JSON.json", 'r') as f:
-            data = json.load(f)
-    except FileNotFoundError:
-        data = []
-
     
-
     with open("Token_JSON.json", 'w') as f:
         json.dump(token, f, indent=4)
         
