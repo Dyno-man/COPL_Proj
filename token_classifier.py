@@ -1,79 +1,51 @@
-tokenList = {
-    "keywords":{
-        'import': 0,
-        'implementations': 1,
-        'function': 2,
-        'main': 3,
-        'return': 4,
-        'type': 5,
-        'integer': 6,
-        'double': 7,
-        'char': 8,
-        'num': 9,
-        'is': 10,
-        'variables': 11,
-        'define': 12,
-        'of': 13,
-        'begin': 14,
-        'display': 15,
-        'set': 16,
-        'exit': 17,
-        'endfun': 18,
-        'symbol': 19,
-        'end': 20,
-        'input': 21,
-        'structures': 22,
-        'pointer': 23,
-        'head': 24,
-        'last': 25,
-        'NULL': 26,
-        'ChNode': 27,
-        'using': 28,
-        'reverse': 29,
-        'while': 30,
-        'endwhile': 31,
-        'call': 32,
-        'constants': 33,
-        'float': 34,
-        'array': 35,
-        'for': 36,
-        'to': 37,
-        'do': 38,
-        'endfor': 39,
-        'forward': 40,
-        'setup': 41,
-        'declarations': 42,
-        'loop': 43,
-        'parameters': 44
+KEYWORDS = [
+    "import", "use", "symbol", "forward", "interface", "struct", "structype",
+    "function", "main", "implementations", "begin", "endfun", "if", "then", "else", "endif",
+    "for", "to", "downto", "do", "endfor", "while", "endwhile", "repeat", "until", "endrepeat",
+    "case", "mwhen", "default", "mendcase", "constants", "variables", "define", "description",
+    "persistent", "static", "accessor", "mutator", "precondition", "potcondition",
+    "parameters", "alters", "preserves", "produces", "consumes", "value", "equop",
+    "return", "call", "input", "display", "displayn", "read", "write", "from", "to",
+    "mfile", "mclose", "mopen", "break", "exit", "of", "array", "pointer", "using"
+]
 
-    },
+KEYWORDS_WITHOUT_IDENTIFIERS = [
+    "import", "use", "forward", "implementations", "begin", "endfun",
+    "if", "then", "else", "endif", "for", "to", "downto", "do", "endfor",
+    "while", "endwhile", "repeat", "until", "endrepeat", "case", "mwhen",
+    "default", "mendcase", "constants", "variables", "description", "persistent",
+    "static", "accessor", "mutator", "precondition", "potcondition",
+    "parameters", "alters", "preserves", "produces", "consumes",
+    "value", "equop", "return", "display", "displayn", "from", "break",
+    "exit", "array", "pointer"
+]
 
-    "operators": {
-        '+': 401,
-        '-': 402,
-        '*': 403,
-        '/': 404,
-        '^': 405,
-        '>': 406,
-        '<': 407,
-        '=': 408,
-        '(':409,
-        ')':410,
-        '.':411
-    },
+KEYWORDS_WITH_IDENTIFIERS = [
+    "symbol",       
+    "interface",    
+    "struct",       
+    "structype",    
+    "function",     
+    "define",       
+    "mfile",        
+    "mclose",       
+    "main",         
+    "read",         
+    "write",        
+    "input",        
+    "output",       
+    "call",         
+    "endfun",       
+    "of",           
+    "using",        
+]
 
-    "specialSymbols": {
-        ',': 800,
-        '.': 801,
-    }
-}
 
-class Token:
-    def __init__(self, type, id, value):
-        self.type = type
-        self.id = id
-        self.value = value
+LITERAL_TYPES = ["icon", "hcon", "fcon", "string", "letter", "mtrue", "mfalse"]
 
-    def getData(self):
-        return [self.type, self.id, self.value]
-        
+OPERATORS = [
+    "+", "-", "*", "/", "%", "&", "|", "^", "<<", ">>",
+    "=", "==", "!=", "<", "<=", ">", ">=", ".", ",", ":", ";"
+]
+
+DELIMITERS = ["(", ")", "[", "]", "{", "}"]
