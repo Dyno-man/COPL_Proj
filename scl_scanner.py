@@ -13,6 +13,7 @@ IDENTIFIERS = SCLTokens.IDENTIFIERS
 
 # Combine regex patterns
 token_specification = [
+    ("DOUBSLASH",  r"//"),
     ("KEYWORD",    r"\*/"),
     ("NUMBER",     r'\d+(\.\d+)?'),
     ("STRING",     r'"[^"\n]*"'),
@@ -37,7 +38,7 @@ def tokenize(code):
         type = match.lastgroup
         value = match.group()
 
-        if type == "ID":  # Handles identifiers and keywords
+        if type == "ID" or "DOUBSLASH":  # Handles identifiers and keywords
             if value in KEYWORDS:
                 type = "KEYWORD"
             elif value in LITERAL_TYPES:
@@ -86,11 +87,6 @@ def main():
                     code = f.read()
                 tokens, identifiers = tokenize(code)
                 create_json_doc(tokens, file)
-
-
-    #print("Tokens:")
-    #for token in tokens:
-      #  print(token)
 
 
 if __name__ == "__main__":
