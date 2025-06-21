@@ -13,8 +13,7 @@ IDENTIFIERS = SCLTokens.IDENTIFIERS
 
 # Combine regex patterns
 token_specification = [
-    ("DOUBSLASH",  r"//"),
-    ("KEYWORD",    r"\*/"),
+    ("KEYWORD",    r"//|\*/"),
     ("NUMBER",     r'\d+(\.\d+)?'),
     ("STRING",     r'"[^"\n]*"'),
     ("APOSTROPHE", r"'[^'\n]*'"),
@@ -38,15 +37,7 @@ def tokenize(code):
         type = match.lastgroup
         value = match.group()
 
-        if type == "ID" or "DOUBSLASH":  # Handles identifiers and keywords
-            if value in KEYWORDS:
-                type = "KEYWORD"
-            elif value in LITERAL_TYPES:
-                type = "LITERAL"
-            else:
-                type = "IDENTIFIER"
-                identifiers.add(value)
-        elif type == "NUMBER": # Handles numbers
+        if type == "NUMBER": # Handles numbers
             value = float(value) if '.' in value else int(value)
         elif type == "STRING": # Handles string literals
             type = "STRING_LITERAL"
