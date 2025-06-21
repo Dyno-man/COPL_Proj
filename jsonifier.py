@@ -12,30 +12,29 @@ class Token:
         return [self.type, self.value]
     
 
-
-
 # i is the string in the tokens list
 def jsonifier(tokens):
-    dummy_thicc_token_temp = []
+    token_temp = []
     for token in tokens:
         if token in SCLTokens.KEYWORDS:
-            dummy_thicc_token_temp.append(Token("Keyword", token["Value"]))
+            token_temp.append(Token("Keyword", token["Value"]))
         elif token in SCLTokens.LITERAL_TYPES:
-            dummy_thicc_token_temp.append(Token("Literal", token["Value"]))
+            token_temp.append(Token("Literal", token["Value"]))
         elif token in SCLTokens.OPERATORS:
-            dummy_thicc_token_temp.append(Token("Operator", token["Value"]))
+            token_temp.append(Token("Operator", token["Value"]))
         elif token in SCLTokens.DELIMITERS:
-            dummy_thicc_token_temp.append(Token("Delimiter", token["Value"]))
+            token_temp.append(Token("Delimiter", token["Value"]))
         else:
-            dummy_thicc_token_temp.append(Token("Identifier", token["Value"]))
+            token_temp.append(Token("Identifier", token["Value"]))
     
-    return dummy_thicc_token_temp
+    return token_temp
 
 def create_json_doc(tokens, filename):
-    token = jsonifier(tokens)
-    # for i in token:
-    #         token += { "Type" : i.type, "Value": i.token}
+    tokens = jsonifier(tokens)
+    token_json = []
+    for token in tokens:
+        token_json.append(dict(Type=token.type, Value=token.value))
     
     with open(filename +"_Token_JSON.json", 'w') as f:
-        json.dump(token, f, indent=4)
+        json.dump(token_json, f, indent=4)
         
