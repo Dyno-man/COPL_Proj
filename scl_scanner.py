@@ -1,7 +1,6 @@
+import os
 import sys
-import json
 import re
-from token_classifier import SCLTokens
 from jsonifier import *
 
 KEYWORDS = SCLTokens.KEYWORDS
@@ -14,8 +13,11 @@ IDENTIFIERS = SCLTokens.IDENTIFIERS
 
 # Combine regex patterns
 token_specification = [
+    ("DOUBSLASH",  r"//"),
+    ("KEYWORD",    r"\*/"),
     ("NUMBER",     r'\d+(\.\d+)?'),
     ("STRING",     r'"[^"\n]*"'),
+    ("APOSTROPHE", r"'[^'\n]*'"),
     ("ID",         r'[A-Za-z_]\w*'),
     ("OP",         '|'.join(map(re.escape, OPERATORS))),
     ("DELIM",      '|'.join(map(re.escape, DELIMITERS))),
@@ -36,7 +38,15 @@ def tokenize(code):
         type = match.lastgroup
         value = match.group()
 
-        if type == "NUMBER": # Handles numbers
+        if type == "ID" or "DOUBSLASH":  # Handles identifiers and keywords
+            if value in KEYWORDS:
+                type = "KEYWORD"
+            elif value in LITERAL_TYPES:
+                type = "LITERAL"
+            else:
+                type = "IDENTIFIER"
+                identifiers.add(value)
+        elif type == "NUMBER": # Handles numbers
             value = float(value) if '.' in value else int(value)
         elif type == "STRING": # Handles string literals
             type = "STRING_LITERAL"
@@ -62,18 +72,21 @@ def tokenize(code):
 def main():
     sclFile = sys.argv[1]
 
-    with open(sclFile, 'r') as f:
-        code = f.read()
+    if os.path.isfile(sclFile):
+        with open(sclFile, 'r') as f:
+            code = f.read()
 
-    tokens, identifiers = tokenize(code)
+        tokens, identifiers = tokenize(code)
+        create_json_doc(tokens, sclFile)
 
-    IDENTIFIERS = identifiers
-
-    create_json_doc(tokens)
-
-    print("Tokens:")
-    for token in tokens:
-        print(token)
+    else:
+        files = os.listdir(sclFile)
+        for file in files:
+            if file.endswith('.scl'):
+                with open((sclFile + "/" + file), 'r') as f:
+                    code = f.read()
+                tokens, identifiers = tokenize(code)
+                create_json_doc(tokens, file)
 
 
 if __name__ == "__main__":

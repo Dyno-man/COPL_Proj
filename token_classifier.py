@@ -7,7 +7,7 @@ class SCLTokens:
         "persistent", "static", "accessor", "mutator", "precondition", "potcondition",
         "parameters", "alters", "preserves", "produces", "consumes", "value", "equop",
         "return", "call", "input", "display", "displayn", "read", "write", "from", "to",
-        "mfile", "mclose", "mopen", "break", "exit", "of", "array", "pointer", "using"
+        "mfile", "mclose", "mopen", "break", "exit", "of", "array", "pointer", "using", "*/", "//"
     ]
     
     KEYWORDS_WITHOUT_IDENTIFIERS = [
