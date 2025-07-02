@@ -1,9 +1,54 @@
 from token_classifier import *
+import json
+
+KEYWORDS = SCLTokens.KEYWORDS
+KEYWORDS_WITHOUT_IDENTIFIERS = SCLTokens.KEYWORDS_WITHOUT_IDENTIFIERS
+KEYWORDS_WITH_IDENTIFIERS = SCLTokens.KEYWORDS_WITH_IDENTIFIERS
+LITERAL_TYPES = SCLTokens.LITERAL_TYPES
+OPERATORS = SCLTokens.OPERATORS
+DELIMITERS = SCLTokens.DELIMITERS
+IDENTIFIERS = SCLTokens.IDENTIFIERS
+
 #Iterates through the json tokens for each token
-#def getNextToken():
+index = 0
+file = "welcome.scl_TOKEN_JSON.json"
+dict = []
+def loadJSON(fileName):
+    global dict
+    with open(fileName, 'r') as file:
+        data = json.load(file)
+
+    # Ignore comments, add rest to dictionary
+    comment = False
+    for i in data:
+        type = i['Type']
+        value = i['Value']
+
+        if type == "KEYWORD" and value == "description":
+            comment = True
+            continue
+        elif type == "KEYWORD" and value == "*/":
+            comment = False
+            continue
+
+        if comment:
+            continue
+
+        dict.append(i)
+
+def getNextToken():
+    global index
+    index += 1
+    return dict[index]
+
 
 #Checks whether the id has already been declared or not
-#def identifierExists(id):  
+def identifierExists(id):
+    if IDENTIFIERS.__contains__(id):
+        return True
+    else:
+        IDENTIFIERS.append(id)
+        return False
 
 #Starts the parser to begin syntax checking
 #def begin():
