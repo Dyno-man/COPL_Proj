@@ -1,12 +1,4 @@
 from token_classifier import *
-
-KEYWORDS = SCLTokens.KEYWORDS
-KEYWORDS_WITHOUT_IDENTIFIERS = SCLTokens.KEYWORDS_WITHOUT_IDENTIFIERS
-KEYWORDS_WITH_IDENTIFIERS = SCLTokens.KEYWORDS_WITH_IDENTIFIERS
-LITERAL_TYPES = SCLTokens.LITERAL_TYPES
-OPERATORS = SCLTokens.OPERATORS
-DELIMITERS = SCLTokens.DELIMITERS
-IDENTIFIERS = SCLTokens.IDENTIFIERS
 #Iterates through the json tokens for each token
 #def getNextToken():
 
@@ -20,15 +12,12 @@ IDENTIFIERS = SCLTokens.IDENTIFIERS
 test_tokens = ["declare", "x", "=", "5", "display", "x"]
 token_index = 0
 
-
 def current_token():
     return test_tokens[token_index] if token_index < len(test_tokens) else "EOF"
-
 
 def advance():
     global token_index
     token_index += 1
-
 
 def match_token(expected):
     if current_token() == expected:
@@ -36,41 +25,12 @@ def match_token(expected):
     else:
         raise SyntaxError(f"Expected: {expected}, got {current_token()}")
 
-
 #General format of the statements
 def declare_stmt():
     match_token("declare")
-    # if validate_identifier(NEXT_TOKEN_HERE):
-    #     IDENTIFIERS.append(NEXT_TOKEN_HERE) #add identifier to list for future declaration checks
-
     #Check if following token is identifier (Need to add this functionality)
     match_token("=")
     #Check if following token is a valid value (Need to add functionality)
-
-
-#Checks that identifiers follow the naming constraints and are not keywords
-def validate_identifier(identifier):
-    if check_Keyword(identifier):
-        raise SyntaxError("not a statement")
-    else:
-        for character in identifier:
-            if not character.isAlpha() or character != "_" or character == " ":
-                raise SyntaxError("not a statement")
-        return True
-
-
-def check_Keyword(identifier):
-    if identifier in KEYWORDS:
-        return True
-    if identifier in KEYWORDS_WITHOUT_IDENTIFIERS:
-        return True
-    if identifier in KEYWORDS_WITH_IDENTIFIERS:
-        return True
-    if identifier in LITERAL_TYPES:
-        return True
-    if identifier in OPERATORS:
-        return True
-
 
 def stmt():
     token = current_token()
@@ -92,11 +52,9 @@ def stmt():
     else:
         raise SyntaxError(f"Unexpected statement start: {token}")
 
-
 def stmt_list():
     while current_token() in ("declare", "set", "display", "if", "while"):
         stmt()
-
 
 def program():
     stmt_list()
