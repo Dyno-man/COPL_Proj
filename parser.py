@@ -25,6 +25,13 @@ def match_token(expected):
     else:
         raise SyntaxError(f"Expected: {expected}, got {current_token()}")
 
+#General format of the statements
+def declare_stmt():
+    match_token("declare")
+    #Check if following token is identifier (Need to add this functionality)
+    match_token("=")
+    #Check if following token is a valid value (Need to add functionality)
+
 def stmt():
     token = current_token()
     if token == "declare":
