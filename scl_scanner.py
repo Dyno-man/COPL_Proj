@@ -46,9 +46,9 @@ def tokenize(code):
                 type = "STRING_LITERAL"
                 value = value.strip('"')
             elif type == "ID":
-                if value in KEYWORDS:
+                if value.lower() in KEYWORDS:
                     type = "KEYWORD"
-                elif value in LITERAL_TYPES:
+                elif value.lower() in LITERAL_TYPES:
                     type = "LITERAL"
                 else:
                     type = "IDENTIFIER"

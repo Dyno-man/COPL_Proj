@@ -66,7 +66,7 @@ def identifierExists(id):
 #def begin():
 
 #Must define our own grammar rules, for ex declare x = 5 we would take the declar stmnt, then check if id is next, then check for =, then vcheck for value
-test_tokens = ["declare", "x", "=", "5", "display", "x"]
+test_tokens = ["define", "x", "=", "5", "display", "x"]
 token_index = 0
 
 def current_token():
@@ -83,8 +83,8 @@ def match_token(expected):
         raise SyntaxError(f"Expected: {expected}, got {current_token()}")
 
 #General format of the statements
-def declare_stmt():
-    match_token("declare")
+def define_stmt():
+    match_token("define")
     #Check if following token is identifier (Need to add this functionality)
     # if validate_identifier(NEXT_TOKEN_HERE):
     #     IDENTIFIERS.append(NEXT_TOKEN_HERE) #add identifier to list for future declaration checks
@@ -119,9 +119,8 @@ def check_Keyword(identifier):
 
 def stmt():
     token = current_token()
-    if token == "declare":
-        print()
-        declare_stmt()
+    if token == "define":
+        define_stmt()
     elif token == "set":
         print()
         #set_stmt()
@@ -138,7 +137,7 @@ def stmt():
         raise SyntaxError(f"Unexpected statement start: {token}")
 
 def stmt_list():
-    while current_token() in ("declare", "set", "display", "if", "while"):
+    while current_token() in ("define", "set", "display", "if", "while"):
         stmt()
 
 def program():
