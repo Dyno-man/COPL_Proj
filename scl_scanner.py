@@ -32,32 +32,41 @@ def tokenize(code):
     tokens = []
     identifiers = set()
 
-    # Iterate over every match in regex pattern
-    for match in re.finditer(token_regex, code):
-        type = match.lastgroup
-        value = match.group()
+    lines = code.splitlines(keepends=True)
 
-        if type == "NUMBER": # Handles numbers
-            value = float(value) if '.' in value else int(value)
-        elif type == "STRING": # Handles string literals
-            type = "STRING_LITERAL"
-            value = value.strip('"')
-        elif type == "ID": # Handles identifiers and keywords
-            if value in KEYWORDS:
-                type = "KEYWORD"
-            elif value in LITERAL_TYPES:
-                type = "LITERAL"
-            else:
-                type = "IDENTIFIER"
-                identifiers.add(value)
-        elif type == "SKIP" or type == "NEWLINE": # Skips whitespace
-            continue
-        elif type == "MISMATCH": # Handles mismatched characters
-            raise RuntimeError(f'Unexpected character: {value!r}')
+    for line in lines:
+        line_tokens = []
+        for match in re.finditer(token_regex, line):
+            type = match.lastgroup
+            value = match.group()
 
-        # Add token to list
-        tokens.append({"Type": type, "Value": value})
-        # print(f'Token: {type}, Value: {value}')
+            if type == "NUMBER":
+                value = float(value) if '.' in value else int(value)
+            elif type == "STRING":
+                type = "STRING_LITERAL"
+                value = value.strip('"')
+            elif type == "ID":
+                if value in KEYWORDS:
+                    type = "KEYWORD"
+                elif value in LITERAL_TYPES:
+                    type = "LITERAL"
+                else:
+                    type = "IDENTIFIER"
+                    identifiers.add(value)
+            elif type == "SKIP":
+                continue
+            elif type == "MISMATCH":
+                raise RuntimeError(f'Unexpected character: {value!r}')
+            elif type == "NEWLINE":
+                continue
+
+            line_tokens.append({"Type": type, "Value": value})
+
+        # Mark last token in the line (if any) with end-of-line
+        if line_tokens:
+            line_tokens[-1]["EOL"] = True
+        tokens.extend(line_tokens)
+        tokens.append({"Type": "NEWLINE", "Value": "\\n"})
 
     return tokens, sorted(identifiers)
 
