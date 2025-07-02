@@ -86,8 +86,36 @@ def match_token(expected):
 def declare_stmt():
     match_token("declare")
     #Check if following token is identifier (Need to add this functionality)
+    # if validate_identifier(NEXT_TOKEN_HERE):
+    #     IDENTIFIERS.append(NEXT_TOKEN_HERE) #add identifier to list for future declaration checks
+
+    
     match_token("=")
     #Check if following token is a valid value (Need to add functionality)
+
+
+#Checks that identifiers follow the naming constraints and are not keywords
+def validate_identifier(identifier):
+    if check_Keyword(identifier):
+        raise SyntaxError("not a statement")
+    else:
+        for character in identifier:
+            if not character.isAlpha() or character != "_" or character == " ":
+                raise SyntaxError("not a statement")
+        return True
+
+
+def check_Keyword(identifier):
+    if identifier in KEYWORDS:
+        return True
+    if identifier in KEYWORDS_WITHOUT_IDENTIFIERS:
+        return True
+    if identifier in KEYWORDS_WITH_IDENTIFIERS:
+        return True
+    if identifier in LITERAL_TYPES:
+        return True
+    if identifier in OPERATORS:
+        return True
 
 def stmt():
     token = current_token()
