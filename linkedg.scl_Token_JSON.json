@@ -1,0 +1,1230 @@
+[
+    {
+        "Type": "KEYWORD",
+        "Value": "description"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "General"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "interface"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "file"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "with"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "single"
+    },
+    {
+        "Type": "OP",
+        "Value": "-"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "linked"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "specification"
+    },
+    {
+        "Type": "OP",
+        "Value": "."
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "Includes"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "definitions"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "and"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "and"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "function"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "prototypes"
+    },
+    {
+        "Type": "OP",
+        "Value": "."
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "J"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "M"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "Garrido"
+    },
+    {
+        "Type": "OP",
+        "Value": "."
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "Updated"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "May"
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 2020
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "Department"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "Computer"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "Science"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "Collete"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "Computing"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "and"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "Software"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "Engineering"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "Kennesaw"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "State"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "University"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "*/"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "import"
+    },
+    {
+        "Type": "STRING_LITERAL",
+        "Value": "scl.h"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "specifications"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "struct"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "node"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "is"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "node"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "structures"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "define"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "datablock"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "pointer"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "void"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "define"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "link"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "pointer"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "NodeType"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "endstruct"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "node"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "struct"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "llist"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "is"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "structure"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "for"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "linked"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "list"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "variables"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "define"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "numnodes"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "integer"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "define"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "maxnodes"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "integer"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "define"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "sname"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "array"
+    },
+    {
+        "Type": "DELIM",
+        "Value": "["
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 30
+    },
+    {
+        "Type": "DELIM",
+        "Value": "]"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "char"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "structures"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "define"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "Head"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "NodePtrT"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "head"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "list"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "define"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "current"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "NodePtrT"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "endstruct"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "llist"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "definetype"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "struct"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "node"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "NodeType"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "definetype"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "pointer"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "NodeType"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "NodePtrT"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "definetype"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "struct"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "llist"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "listT"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "forward"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "declarations"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "function"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "create_list"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "return"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "void"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "parameters"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "plist"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "pointer"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "listT"
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "maxn"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "integer"
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "pname"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "pointer"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "char"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "function"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "insert_front"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "return"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "void"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "parameters"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "plist"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "pointer"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "listT"
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "pnode"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "NodeptrT"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "function"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "remove_front"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "return"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "NodePtr"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "parameters"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "plist"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "pointer"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "listT"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "function"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "traverse_display"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "return"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "void"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "parameters"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "plist"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "pointer"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "listT"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "function"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "empty_list"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "return"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "bool"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "parameters"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "plist"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "pointer"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "listT"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "function"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "full_list"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "return"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "bool"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "parameters"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "plist"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "pointer"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "listT"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "function"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "remove_node"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "return"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "NodePtr"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "parameters"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "plist"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "pointer"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "listT"
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "lpos"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "integer"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "function"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "get_front"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "return"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "NodePtr"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "parameters"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "plist"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "pointer"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "listT"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "function"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "get_next"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "return"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "NodePtr"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "parameters"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "plist"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "pointer"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "listT"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "function"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "remove_last"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "return"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "NodePtr"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "parameters"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "plist"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "pointer"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "listT"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "remove"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "last"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "node"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "function"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "csize"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "return"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "integer"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "parameters"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "plist"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "pointer"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "listT"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "function"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "insert_node"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "return"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "void"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "parameters"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "plist"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "pointer"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "listT"
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "pnode"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "NodePtr"
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "lposition"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "integer"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "function"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "get_node"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "return"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "NodePtr"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "parameters"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "plist"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "pointer"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "listT"
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "lpos"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "integer"
+    }
+]

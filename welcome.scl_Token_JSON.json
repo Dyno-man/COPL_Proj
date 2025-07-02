@@ -1,0 +1,310 @@
+[
+    {
+        "Type": "KEYWORD",
+        "Value": "description"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "Program"
+    },
+    {
+        "Type": "OP",
+        "Value": ":"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "welcome"
+    },
+    {
+        "Type": "OP",
+        "Value": "."
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "scl"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "Author"
+    },
+    {
+        "Type": "OP",
+        "Value": ":"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "J"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "M"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "Garrido"
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "November"
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 20
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 2019
+    },
+    {
+        "Type": "OP",
+        "Value": "."
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "Description"
+    },
+    {
+        "Type": "OP",
+        "Value": ":"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "Display"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "welcome"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "message"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "on"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "the"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "screen"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "and"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "the"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "value"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "variable"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "x"
+    },
+    {
+        "Type": "OP",
+        "Value": "."
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "*/"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "import"
+    },
+    {
+        "Type": "STRING_LITERAL",
+        "Value": "scl.h"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "implementations"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "function"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "main"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "return"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "integer"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "is"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "variables"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "define"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "x"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "double"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "a"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "variable"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "declaration"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "begin"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "display"
+    },
+    {
+        "Type": "STRING_LITERAL",
+        "Value": "Welcome to the world of SCL"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "set"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "x"
+    },
+    {
+        "Type": "OP",
+        "Value": "="
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 45.95
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "assigns"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "a"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "value"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "to"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "variable"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "x"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "display"
+    },
+    {
+        "Type": "STRING_LITERAL",
+        "Value": "Value of x: "
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "x"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "exit"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "execution"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "terminates"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "OK"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "endfun"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "main"
+    }
+]

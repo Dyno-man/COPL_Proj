@@ -57,6 +57,7 @@ def tokenize(code):
 
         # Add token to list
         tokens.append({"Type": type, "Value": value})
+        # print(f'Token: {type}, Value: {value}')
 
     return tokens, sorted(identifiers)
 
@@ -78,6 +79,7 @@ def main():
                     code = f.read()
                 tokens, identifiers = tokenize(code)
                 create_json_doc(tokens, file)
+    print(identifiers)
 
 
 if __name__ == "__main__":

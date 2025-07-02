@@ -1,0 +1,1278 @@
+[
+    {
+        "Type": "KEYWORD",
+        "Value": "import"
+    },
+    {
+        "Type": "STRING_LITERAL",
+        "Value": "sysplm.h"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "description"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "Program"
+    },
+    {
+        "Type": "OP",
+        "Value": ":"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "bitops1"
+    },
+    {
+        "Type": "OP",
+        "Value": "."
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "scl"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "Test"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "the"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "Sysplm"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "with"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "several"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "bitwise"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "operations"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "J"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "Garrido"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "March"
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 2018
+    },
+    {
+        "Type": "OP",
+        "Value": "."
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "*/"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "symbol"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "MM"
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 66
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "h"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 110
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 110
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "symbol"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "MN"
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 0
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "B3h"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 1011
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 11
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "global"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "declarations"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "variables"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "define"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "a"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "unsigned"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "integer"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "define"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "b"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "unsigned"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "short"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "define"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "c"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "unsigned"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "long"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "implementations"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "description"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "This"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "is"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "the"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "main"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "function"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "the"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "application"
+    },
+    {
+        "Type": "OP",
+        "Value": "."
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "*/"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "function"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "main"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "is"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "variables"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "define"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "vara"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "byte"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "define"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varb"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "byte"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "define"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varc1"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "byte"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "define"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varc2"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "byte"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "define"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varc3"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "byte"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "define"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varc4"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "byte"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "define"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "d1"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "byte"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "define"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "d2"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "byte"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "begin"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "set"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "vara"
+    },
+    {
+        "Type": "OP",
+        "Value": "="
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "MM"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 110
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 110
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "set"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varb"
+    },
+    {
+        "Type": "OP",
+        "Value": "="
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "MN"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 1011
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 11
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "set"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varc1"
+    },
+    {
+        "Type": "OP",
+        "Value": "="
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "vara"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "band"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varb"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "set"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varc2"
+    },
+    {
+        "Type": "OP",
+        "Value": "="
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "vara"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "bor"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varb"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "set"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varc3"
+    },
+    {
+        "Type": "OP",
+        "Value": "="
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "vara"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "bxor"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varb"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "set"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varc4"
+    },
+    {
+        "Type": "OP",
+        "Value": "="
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "negate"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "vara"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "display"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varc1"
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "STRING_LITERAL",
+        "Value": " "
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varc2"
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "STRING_LITERAL",
+        "Value": " "
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varc3"
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "STRING_LITERAL",
+        "Value": " "
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varc4"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "Using"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "a"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "mask"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "to"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "select"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "or"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "alter"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "bits"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "set"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varc1"
+    },
+    {
+        "Type": "OP",
+        "Value": "="
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "vara"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "band"
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 0
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "FEh"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "clear"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "bit"
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 0
+    },
+    {
+        "Type": "DELIM",
+        "Value": "("
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "lowest"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "bit"
+    },
+    {
+        "Type": "DELIM",
+        "Value": ")"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "set"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varc2"
+    },
+    {
+        "Type": "OP",
+        "Value": "="
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "vara"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "band"
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 1
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "h"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "clear"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "all"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "except"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "bit"
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 0
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "set"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varc3"
+    },
+    {
+        "Type": "OP",
+        "Value": "="
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "vara"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "bor"
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 1
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "h"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "set"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "bit"
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 0
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "set"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varc4"
+    },
+    {
+        "Type": "OP",
+        "Value": "="
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "vara"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "bxor"
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 1
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "h"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "complement"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "bit"
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 0
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "display"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varc1"
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "STRING_LITERAL",
+        "Value": " "
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varc2"
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "STRING_LITERAL",
+        "Value": " "
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varc3"
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "STRING_LITERAL",
+        "Value": " "
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varc4"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "set"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "d1"
+    },
+    {
+        "Type": "OP",
+        "Value": "="
+    },
+    {
+        "Type": "DELIM",
+        "Value": "("
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "vara"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "lshift"
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 3
+    },
+    {
+        "Type": "DELIM",
+        "Value": ")"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "set"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "d2"
+    },
+    {
+        "Type": "OP",
+        "Value": "="
+    },
+    {
+        "Type": "DELIM",
+        "Value": "("
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "varb"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "rshift"
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 2
+    },
+    {
+        "Type": "DELIM",
+        "Value": ")"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "display"
+    },
+    {
+        "Type": "STRING_LITERAL",
+        "Value": "d1: "
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "d1"
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "STRING_LITERAL",
+        "Value": " d2: "
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "d2"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "set"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "a"
+    },
+    {
+        "Type": "OP",
+        "Value": "="
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "d1"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "move"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "d1"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "to"
+    },
+    {
+        "Type": "DELIM",
+        "Value": "("
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "low"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "byte"
+    },
+    {
+        "Type": "DELIM",
+        "Value": ")"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "a"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "display"
+    },
+    {
+        "Type": "STRING_LITERAL",
+        "Value": "a: "
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "a"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "set"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "a"
+    },
+    {
+        "Type": "OP",
+        "Value": "="
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "a"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "lshift"
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 8
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "shift"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "to"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "high"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "byte"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "a"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "display"
+    },
+    {
+        "Type": "STRING_LITERAL",
+        "Value": "a: "
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "a"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "set"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "a"
+    },
+    {
+        "Type": "OP",
+        "Value": "="
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "a"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "bor"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "d2"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "copy"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "d2"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "to"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "low"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "byte"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "a"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "display"
+    },
+    {
+        "Type": "STRING_LITERAL",
+        "Value": "a: "
+    },
+    {
+        "Type": "OP",
+        "Value": ","
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "a"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "exit"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "endfun"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "main"
+    }
+]
