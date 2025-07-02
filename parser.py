@@ -36,7 +36,7 @@ def stmt():
     token = current_token()
     if token == "declare":
         print()
-        #declare_stmt()
+        declare_stmt()
     elif token == "set":
         print()
         #set_stmt()
