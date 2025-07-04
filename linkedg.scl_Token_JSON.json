@@ -4,6 +4,10 @@
         "Value": "description"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "General"
     },
@@ -40,6 +44,10 @@
         "Value": "."
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "Includes"
     },
@@ -72,6 +80,14 @@
         "Value": "."
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "J"
     },
@@ -100,6 +116,10 @@
         "Value": 2020
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "Department"
     },
@@ -114,6 +134,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "Science"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -140,6 +164,10 @@
         "Value": "Engineering"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "Kennesaw"
     },
@@ -152,8 +180,20 @@
         "Value": "University"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "*/"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -164,8 +204,24 @@
         "Value": "scl.h"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "specifications"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -192,8 +248,16 @@
         "Value": "type"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "structures"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -220,6 +284,10 @@
         "Value": "void"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "define"
     },
@@ -244,6 +312,10 @@
         "Value": "NodeType"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "endstruct"
     },
@@ -252,8 +324,16 @@
         "Value": "node"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "//"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -288,8 +368,16 @@
         "Value": "list"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "variables"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -312,6 +400,10 @@
         "Value": "integer"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "define"
     },
@@ -330,6 +422,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "integer"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -368,8 +464,16 @@
         "Value": "char"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "structures"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -408,6 +512,10 @@
         "Value": "list"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "define"
     },
@@ -428,12 +536,24 @@
         "Value": "NodePtrT"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "endstruct"
     },
     {
         "Type": "IDENTIFIER",
         "Value": "llist"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -452,6 +572,10 @@
         "Value": "NodeType"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "definetype"
     },
@@ -466,6 +590,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "NodePtrT"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -484,6 +612,14 @@
         "Value": "listT"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "forward"
     },
@@ -492,8 +628,16 @@
         "Value": "declarations"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "//"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -544,6 +688,10 @@
         "Value": ","
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "maxn"
     },
@@ -564,6 +712,10 @@
         "Value": ","
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "pname"
     },
@@ -582,6 +734,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "char"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -632,6 +788,10 @@
         "Value": ","
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "pnode"
     },
@@ -646,6 +806,14 @@
     {
         "Type": "IDENTIFIER",
         "Value": "NodeptrT"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -666,6 +834,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "NodePtr"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -690,6 +862,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "listT"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -736,6 +912,14 @@
         "Value": "listT"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "function"
     },
@@ -780,6 +964,14 @@
         "Value": "listT"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "function"
     },
@@ -822,6 +1014,14 @@
     {
         "Type": "IDENTIFIER",
         "Value": "listT"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -872,6 +1072,10 @@
         "Value": ","
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "lpos"
     },
@@ -886,6 +1090,14 @@
     {
         "Type": "IDENTIFIER",
         "Value": "integer"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -912,6 +1124,10 @@
         "Value": "parameters"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "plist"
     },
@@ -930,6 +1146,14 @@
     {
         "Type": "IDENTIFIER",
         "Value": "listT"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -956,6 +1180,10 @@
         "Value": "parameters"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "plist"
     },
@@ -974,6 +1202,14 @@
     {
         "Type": "IDENTIFIER",
         "Value": "listT"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -998,6 +1234,10 @@
     {
         "Type": "KEYWORD",
         "Value": "parameters"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1036,6 +1276,14 @@
         "Value": "node"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "function"
     },
@@ -1060,6 +1308,10 @@
         "Value": "parameters"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "plist"
     },
@@ -1078,6 +1330,14 @@
     {
         "Type": "IDENTIFIER",
         "Value": "listT"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -1128,6 +1388,10 @@
         "Value": ","
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "pnode"
     },
@@ -1162,6 +1426,14 @@
     {
         "Type": "IDENTIFIER",
         "Value": "integer"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -1212,6 +1484,10 @@
         "Value": ","
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "lpos"
     },
@@ -1226,5 +1502,13 @@
     {
         "Type": "IDENTIFIER",
         "Value": "integer"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     }
 ]

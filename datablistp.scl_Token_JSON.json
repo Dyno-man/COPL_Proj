@@ -4,6 +4,10 @@
         "Value": "description"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "datablistp"
     },
@@ -14,6 +18,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "scl"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -54,6 +62,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "ways"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -100,6 +112,10 @@
         "Value": "."
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "The"
     },
@@ -136,6 +152,10 @@
         "Value": "."
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "J"
     },
@@ -168,8 +188,16 @@
         "Value": 2020
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "*/"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -196,6 +224,10 @@
         "Value": ">"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "import"
     },
@@ -218,6 +250,10 @@
     {
         "Type": "OP",
         "Value": ">"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -244,12 +280,20 @@
         "Value": ">"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "import"
     },
     {
         "Type": "STRING_LITERAL",
         "Value": "basic_lib.h"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -260,8 +304,24 @@
         "Value": "linked.h"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "specifications"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -292,8 +352,16 @@
         "Value": "type"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "variables"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -332,6 +400,10 @@
         "Value": "char"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "define"
     },
@@ -350,6 +422,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "integer"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -372,12 +448,24 @@
         "Value": "integer"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "endstruct"
     },
     {
         "Type": "IDENTIFIER",
         "Value": "Datablock"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -396,12 +484,28 @@
         "Value": "DataT"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "forward"
     },
     {
         "Type": "IDENTIFIER",
         "Value": "declarations"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -430,6 +534,10 @@
     {
         "Type": "KEYWORD",
         "Value": "parameters"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -492,6 +600,10 @@
         "Value": "integer"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "function"
     },
@@ -534,6 +646,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "DataT"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -580,8 +696,24 @@
         "Value": "listT"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "implementations"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -608,6 +740,10 @@
         "Value": "is"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "//"
     },
@@ -624,8 +760,16 @@
         "Value": "definitions"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "variables"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -646,6 +790,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "integer"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -684,8 +832,16 @@
         "Value": "char"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "structures"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -706,6 +862,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "listT"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -730,6 +890,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "listT"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -756,6 +920,10 @@
         "Value": "DataT"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "define"
     },
@@ -776,8 +944,16 @@
         "Value": "nodePtrT"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "begin"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -798,6 +974,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "mlist"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -852,6 +1032,14 @@
         "Value": "list"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "//"
     },
@@ -866,6 +1054,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "block"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -912,6 +1104,14 @@
         "Value": ")"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "//"
     },
@@ -936,6 +1136,10 @@
         "Value": "block"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "create"
     },
@@ -950,6 +1154,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "NodeType"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -984,6 +1192,10 @@
         "Value": "dblock"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "set"
     },
@@ -998,6 +1210,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "dblock"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -1028,12 +1244,20 @@
         "Value": "list"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "display"
     },
     {
         "Type": "STRING_LITERAL",
         "Value": "Inserting node to front of list"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -1060,6 +1284,14 @@
         "Value": "nodePtr"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "//"
     },
@@ -1078,6 +1310,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "block"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1124,6 +1360,10 @@
         "Value": ")"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "//"
     },
@@ -1148,6 +1388,10 @@
         "Value": "block"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "//"
     },
@@ -1166,6 +1410,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "NodeType"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1196,6 +1444,10 @@
         "Value": "dblock"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "call"
     },
@@ -1218,6 +1470,14 @@
     {
         "Type": "IDENTIFIER",
         "Value": "nodePtr"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1264,6 +1524,10 @@
         "Value": ")"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "//"
     },
@@ -1282,6 +1546,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "NodeType"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1312,6 +1580,10 @@
         "Value": "dblock"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "call"
     },
@@ -1334,6 +1606,14 @@
     {
         "Type": "IDENTIFIER",
         "Value": "nodePtr"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -1376,12 +1656,24 @@
         "Value": "list"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "display"
     },
     {
         "Type": "STRING_LITERAL",
         "Value": "Removing front: "
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1412,6 +1704,10 @@
         "Value": ")"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "set"
     },
@@ -1440,6 +1736,10 @@
         "Value": "dblock"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "call"
     },
@@ -1454,6 +1754,14 @@
     {
         "Type": "IDENTIFIER",
         "Value": "dblock"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -1488,6 +1796,10 @@
         "Value": "deleted"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "destroy"
     },
@@ -1496,12 +1808,24 @@
         "Value": "nodePtr"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "destroy"
     },
     {
         "Type": "IDENTIFIER",
         "Value": "dblock"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -1542,6 +1866,14 @@
     {
         "Type": "IDENTIFIER",
         "Value": "list"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1588,6 +1920,14 @@
         "Value": ")"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "call"
     },
@@ -1604,6 +1944,10 @@
         "Value": "dblock"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "create"
     },
@@ -1618,6 +1962,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "NodeType"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1648,12 +1996,24 @@
         "Value": "dblock"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "display"
     },
     {
         "Type": "STRING_LITERAL",
         "Value": "Inserting node to pos 2: "
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -1688,6 +2048,10 @@
         "Value": 2
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "call"
     },
@@ -1702,6 +2066,14 @@
     {
         "Type": "IDENTIFIER",
         "Value": "clist"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1748,12 +2120,20 @@
         "Value": ")"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "display"
     },
     {
         "Type": "STRING_LITERAL",
         "Value": "Inserting 3: "
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -1772,6 +2152,10 @@
         "Value": "dblock"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "create"
     },
@@ -1786,6 +2170,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "NodeType"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1814,6 +2202,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "dblock"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -1848,6 +2240,10 @@
         "Value": 3
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "call"
     },
@@ -1864,12 +2260,24 @@
         "Value": "clist"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "display"
     },
     {
         "Type": "STRING_LITERAL",
         "Value": "Inserting front: "
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1916,6 +2324,10 @@
         "Value": ")"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "call"
     },
@@ -1932,6 +2344,14 @@
         "Value": "dblock"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "create"
     },
@@ -1946,6 +2366,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "NodeType"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1976,6 +2400,14 @@
         "Value": "dblock"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "call"
     },
@@ -2000,6 +2432,10 @@
         "Value": "nodePtr"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "call"
     },
@@ -2016,12 +2452,24 @@
         "Value": "clist"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "display"
     },
     {
         "Type": "STRING_LITERAL",
         "Value": "Remove node 2 "
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -2060,6 +2508,10 @@
         "Value": ")"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "set"
     },
@@ -2088,6 +2540,10 @@
         "Value": "datablock"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "call"
     },
@@ -2102,6 +2558,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "dblock"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -2120,12 +2580,24 @@
         "Value": "clist"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "destroy"
     },
     {
         "Type": "IDENTIFIER",
         "Value": "nodePtr"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -2136,12 +2608,24 @@
         "Value": "dblock"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "display"
     },
     {
         "Type": "STRING_LITERAL",
         "Value": "Removing last node"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -2172,6 +2656,10 @@
         "Value": ")"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "set"
     },
@@ -2200,6 +2688,10 @@
         "Value": "datablock"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "call"
     },
@@ -2214,6 +2706,14 @@
     {
         "Type": "IDENTIFIER",
         "Value": "dblock"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -2232,12 +2732,20 @@
         "Value": "clist"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "destroy"
     },
     {
         "Type": "IDENTIFIER",
         "Value": "nodePtr"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -2248,12 +2756,20 @@
         "Value": "dblock"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "return"
     },
     {
         "Type": "NUMBER",
         "Value": 0
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -2264,8 +2780,16 @@
         "Value": "main"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "//"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -2290,6 +2814,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "DataT"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -2340,6 +2868,10 @@
         "Value": ","
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "pjobcode"
     },
@@ -2360,8 +2892,16 @@
         "Value": "is"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "variables"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -2384,8 +2924,16 @@
         "Value": "integer"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "structures"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -2412,8 +2960,16 @@
         "Value": "DataT"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "begin"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -2436,6 +2992,10 @@
         "Value": "datablock"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "create"
     },
@@ -2450,6 +3010,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "DataT"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -2488,6 +3052,10 @@
         "Value": "pname"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "set"
     },
@@ -2514,6 +3082,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "page"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -2544,12 +3116,20 @@
         "Value": "pjobcode"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "return"
     },
     {
         "Type": "IDENTIFIER",
         "Value": "ldatab"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -2560,8 +3140,16 @@
         "Value": "make_dblock"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "//"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -2578,6 +3166,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "block"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -2628,8 +3220,16 @@
         "Value": "is"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "variables"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -2668,6 +3268,10 @@
         "Value": "char"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "define"
     },
@@ -2686,6 +3290,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "integer"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -2708,8 +3316,16 @@
         "Value": "integer"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "begin"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -2748,6 +3364,10 @@
         "Value": "name"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "set"
     },
@@ -2774,6 +3394,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "jobcode"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -2804,6 +3428,10 @@
         "Value": "age"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "display"
     },
@@ -2818,6 +3446,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "lname"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -2836,6 +3468,10 @@
         "Value": "lage"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "display"
     },
@@ -2852,6 +3488,10 @@
         "Value": "ljobc"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "endfun"
     },
@@ -2860,8 +3500,20 @@
         "Value": "display_data"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "//"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -2912,8 +3564,16 @@
         "Value": "is"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "variables"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -2936,8 +3596,16 @@
         "Value": "integer"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "structures"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -2964,6 +3632,10 @@
         "Value": "DataT"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "define"
     },
@@ -2984,8 +3656,16 @@
         "Value": "nodePtrT"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "begin"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -2994,6 +3674,10 @@
     {
         "Type": "STRING_LITERAL",
         "Value": "Traverse and display data in list"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -3032,12 +3716,24 @@
         "Value": "then"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "return"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "endif"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -3096,6 +3792,10 @@
         "Value": "list"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "set"
     },
@@ -3148,6 +3848,10 @@
         "Value": "node"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "call"
     },
@@ -3162,6 +3866,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "lblock"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -3202,6 +3910,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "loop"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -3256,6 +3968,10 @@
         "Value": "list"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "set"
     },
@@ -3300,6 +4016,10 @@
         "Value": "block"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "call"
     },
@@ -3316,8 +4036,16 @@
         "Value": "lblock"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "endfor"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -3326,5 +4054,13 @@
     {
         "Type": "IDENTIFIER",
         "Value": "traverse_display"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     }
 ]

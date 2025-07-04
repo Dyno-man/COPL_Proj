@@ -8,12 +8,24 @@
         "Value": "sysplm.h"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "description"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "ReadAnalogVoltage"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -68,6 +80,10 @@
         "Value": ","
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "and"
     },
@@ -102,6 +118,14 @@
     {
         "Type": "OP",
         "Value": "."
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -148,6 +172,10 @@
         "Value": ","
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "and"
     },
@@ -192,6 +220,14 @@
         "Value": "."
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "This"
     },
@@ -232,6 +268,10 @@
         "Value": ","
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "which"
     },
@@ -258,6 +298,10 @@
     {
         "Type": "OP",
         "Value": "."
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -292,8 +336,16 @@
         "Value": 2017
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "*/"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -308,6 +360,10 @@
         "Value": 9600
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "symbol"
     },
@@ -320,6 +376,14 @@
         "Value": 5
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "forward"
     },
@@ -328,8 +392,16 @@
         "Value": "declarations"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "description"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -368,8 +440,16 @@
         "Value": "reset"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "*/"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -380,6 +460,14 @@
         "Value": "setup"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "global"
     },
@@ -388,8 +476,16 @@
         "Value": "declarations"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "constants"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -440,12 +536,28 @@
         "Value": "h"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "implementations"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "description"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -488,8 +600,16 @@
         "Value": ":"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "*/"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -504,8 +624,16 @@
         "Value": "is"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "begin"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -548,6 +676,10 @@
         "Value": ":"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "call"
     },
@@ -572,6 +704,10 @@
         "Value": "SERIAL_SPEED"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "endfun"
     },
@@ -580,12 +716,24 @@
         "Value": "setup"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "//"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "description"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -628,8 +776,16 @@
         "Value": ":"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "*/"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -680,8 +836,16 @@
         "Value": ":"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "variables"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -704,6 +868,10 @@
         "Value": "integer"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "define"
     },
@@ -724,8 +892,16 @@
         "Value": "float"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "begin"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -774,6 +950,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "A0"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -828,6 +1008,10 @@
         "Value": ")"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "//"
     },
@@ -872,6 +1056,10 @@
         "Value": ":"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "set"
     },
@@ -912,6 +1100,10 @@
         "Value": ")"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "//"
     },
@@ -944,6 +1136,10 @@
         "Value": ":"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "call"
     },
@@ -968,8 +1164,16 @@
         "Value": "voltage"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "exit"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -978,5 +1182,13 @@
     {
         "Type": "IDENTIFIER",
         "Value": "loop"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     }
 ]

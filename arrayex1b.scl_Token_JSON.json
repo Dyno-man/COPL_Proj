@@ -8,8 +8,16 @@
         "Value": "scl.h"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "description"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -30,6 +38,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "scl"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -64,6 +76,10 @@
         "Value": "."
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "J"
     },
@@ -96,8 +112,16 @@
         "Value": 2018
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "*/"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -110,6 +134,10 @@
     {
         "Type": "NUMBER",
         "Value": 45
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -128,6 +156,10 @@
         "Value": "h"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "symbol"
     },
@@ -142,6 +174,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "ACDFh"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -160,12 +196,24 @@
         "Value": "F5h"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "forward"
     },
     {
         "Type": "IDENTIFIER",
         "Value": "declarations"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -188,8 +236,16 @@
         "Value": "integer"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "parameters"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -224,6 +280,10 @@
         "Value": ","
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "num_elements"
     },
@@ -240,8 +300,28 @@
         "Value": "integer"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "specifications"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -254,6 +334,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "is"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -276,12 +360,24 @@
         "Value": "Wednesday"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "endenum"
     },
     {
         "Type": "IDENTIFIER",
         "Value": "week"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -296,8 +392,16 @@
         "Value": "is"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "variables"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -320,6 +424,10 @@
         "Value": "double"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "define"
     },
@@ -338,6 +446,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "double"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -372,12 +484,24 @@
         "Value": "char"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "endstruct"
     },
     {
         "Type": "IDENTIFIER",
         "Value": "stname"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -388,8 +512,20 @@
         "Value": "declarations"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "constants"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -420,6 +556,10 @@
         "Value": "integer"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "define"
     },
@@ -448,8 +588,16 @@
         "Value": "integer"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "variables"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -488,6 +636,10 @@
         "Value": "float"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "define"
     },
@@ -520,8 +672,20 @@
         "Value": "double"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "structures"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -544,6 +708,10 @@
         "Value": "stname"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "define"
     },
@@ -564,12 +732,32 @@
         "Value": "week"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "implementations"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "description"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -612,6 +800,10 @@
         "Value": "*/"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "function"
     },
@@ -624,8 +816,16 @@
         "Value": "is"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "variables"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -664,6 +864,10 @@
         "Value": "integer"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "define"
     },
@@ -682,6 +886,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "integer"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -704,6 +912,10 @@
         "Value": "integer"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "define"
     },
@@ -722,6 +934,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "integer"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -744,6 +960,10 @@
         "Value": "byte"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "define"
     },
@@ -762,6 +982,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "integer"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -784,8 +1008,16 @@
         "Value": "double"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "begin"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -808,6 +1040,10 @@
         "Value": "ADh"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "set"
     },
@@ -824,6 +1060,10 @@
         "Value": "MYHV"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "set"
     },
@@ -838,6 +1078,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "MYSHV"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -872,6 +1116,10 @@
         "Value": ")"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "input"
     },
@@ -886,6 +1134,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "kelements"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -924,6 +1176,10 @@
         "Value": "do"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "input"
     },
@@ -952,8 +1208,16 @@
         "Value": "]"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "endfor"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -992,6 +1256,10 @@
         "Value": ")"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "display"
     },
@@ -1006,6 +1274,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "max_val"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1032,6 +1304,10 @@
         "Value": "xcoord"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "display"
     },
@@ -1048,8 +1324,16 @@
         "Value": "xc"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "exit"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -1060,8 +1344,20 @@
         "Value": "main"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "description"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1096,6 +1392,10 @@
         "Value": "value"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "in"
     },
@@ -1116,7 +1416,7 @@
         "Value": "."
     },
     {
-        "Type": "IDENTIFIER",
+        "Type": "KEYWORD",
         "Value": "To"
     },
     {
@@ -1142,6 +1442,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "arguments"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1188,6 +1492,10 @@
         "Value": "of"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "elements"
     },
@@ -1208,8 +1516,16 @@
         "Value": "."
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "*/"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -1232,8 +1548,16 @@
         "Value": "integer"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "parameters"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1268,6 +1592,10 @@
         "Value": ","
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "num_elements"
     },
@@ -1284,8 +1612,16 @@
         "Value": "integer"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "is"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -1302,6 +1638,10 @@
     {
         "Type": "KEYWORD",
         "Value": "variables"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -1352,6 +1692,10 @@
         "Value": "array"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "define"
     },
@@ -1396,6 +1740,10 @@
         "Value": "far"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "define"
     },
@@ -1416,8 +1764,16 @@
         "Value": "float"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "begin"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1434,6 +1790,10 @@
     {
         "Type": "NUMBER",
         "Value": 1
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1464,6 +1824,10 @@
         "Value": "]"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "//"
     },
@@ -1484,6 +1848,10 @@
         "Value": "max_elem"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "while"
     },
@@ -1502,6 +1870,10 @@
     {
         "Type": "KEYWORD",
         "Value": "do"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -1532,8 +1904,16 @@
         "Value": "max_elem"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "then"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1562,6 +1942,10 @@
     {
         "Type": "DELIM",
         "Value": "]"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1600,6 +1984,10 @@
         "Value": 3
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "//"
     },
@@ -1620,8 +2008,16 @@
         "Value": "max_elem"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "endif"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1632,8 +2028,16 @@
         "Value": "i"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "endwhile"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -1644,11 +2048,27 @@
         "Value": "max_elem"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "endfun"
     },
     {
         "Type": "IDENTIFIER",
         "Value": "max_array"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     }
 ]

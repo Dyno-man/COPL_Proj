@@ -8,8 +8,16 @@
         "Value": "sysplm.h"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "description"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -30,6 +38,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "scl"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -60,6 +72,10 @@
         "Value": "operations"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "J"
     },
@@ -80,8 +96,16 @@
         "Value": "."
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "*/"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -112,6 +136,10 @@
         "Value": 110
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "symbol"
     },
@@ -140,6 +168,14 @@
         "Value": 11
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "global"
     },
@@ -148,8 +184,16 @@
         "Value": "declarations"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "variables"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -176,6 +220,10 @@
         "Value": "integer"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "define"
     },
@@ -198,6 +246,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "short"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -224,12 +276,32 @@
         "Value": "long"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "implementations"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "description"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -268,8 +340,16 @@
         "Value": "."
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "*/"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -284,8 +364,16 @@
         "Value": "is"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "variables"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -308,6 +396,10 @@
         "Value": "byte"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "define"
     },
@@ -326,6 +418,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "byte"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -348,6 +444,10 @@
         "Value": "byte"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "define"
     },
@@ -366,6 +466,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "byte"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -388,6 +492,10 @@
         "Value": "byte"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "define"
     },
@@ -406,6 +514,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "byte"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -428,6 +540,10 @@
         "Value": "byte"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "define"
     },
@@ -448,8 +564,16 @@
         "Value": "byte"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "begin"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -480,6 +604,10 @@
         "Value": 110
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "set"
     },
@@ -508,6 +636,10 @@
         "Value": 11
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "set"
     },
@@ -530,6 +662,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "varb"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -556,6 +692,10 @@
         "Value": "varb"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "set"
     },
@@ -580,6 +720,10 @@
         "Value": "varb"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "set"
     },
@@ -598,6 +742,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "vara"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -656,15 +804,27 @@
         "Value": "varc4"
     },
     {
-        "Type": "KEYWORD",
-        "Value": "//"
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
         "Value": "//"
     },
     {
-        "Type": "IDENTIFIER",
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "//"
+    },
+    {
+        "Type": "KEYWORD",
         "Value": "Using"
     },
     {
@@ -694,6 +854,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "bits"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -756,6 +920,10 @@
         "Value": ")"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "set"
     },
@@ -808,6 +976,10 @@
         "Value": 0
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "set"
     },
@@ -852,6 +1024,10 @@
         "Value": 0
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "set"
     },
@@ -894,6 +1070,10 @@
     {
         "Type": "NUMBER",
         "Value": 0
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -952,6 +1132,14 @@
         "Value": "varc4"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "IDENTIFIER",
         "Value": "set"
     },
@@ -982,6 +1170,10 @@
     {
         "Type": "DELIM",
         "Value": ")"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1016,6 +1208,10 @@
         "Value": ")"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "display"
     },
@@ -1048,8 +1244,16 @@
         "Value": "d2"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "//"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1108,6 +1312,10 @@
         "Value": "a"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "display"
     },
@@ -1122,6 +1330,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "a"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1176,6 +1388,10 @@
         "Value": "a"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "display"
     },
@@ -1190,6 +1406,10 @@
     {
         "Type": "IDENTIFIER",
         "Value": "a"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "IDENTIFIER",
@@ -1248,6 +1468,10 @@
         "Value": "a"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "display"
     },
@@ -1264,8 +1488,16 @@
         "Value": "a"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
         "Type": "KEYWORD",
         "Value": "exit"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     },
     {
         "Type": "KEYWORD",
@@ -1274,5 +1506,13 @@
     {
         "Type": "KEYWORD",
         "Value": "main"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
     }
 ]
