@@ -16,6 +16,64 @@ index = 0
 file = "welcome.scl_TOKEN_JSON.json"
 tokens = []
 
+class Node:
+    def __init__(self, value, left=None, right=None):
+        self.value = value
+        self.left = left
+        self.right = right
+
+
+def build_expr_tree():
+    operators = []
+    operands = []
+
+    def precedence(op):
+        return {"=": 0, "+": 1, "-": 1, "*": 2, "/": 2}.get(op, -1)
+
+    def apply_operator():
+        op = operators.pop()
+        right = operands.pop()
+        left = operands.pop()
+        operands.append(Node(op, left, right))
+
+    while current_token() not in (";", "EOF", "then", "do", ")", ","):
+        tok = current_token()
+        if tok.isdigit() or tok.replace(".", "", 1).isdigit():
+            operands.append(Node(tok))
+            advance()
+        elif tok.isidentifier():
+            operands.append(Node(tok))
+            advance()
+        elif tok in ("+", "-", "*", "/"):
+            while operators and precedence(operators[-1]) >= precedence(tok):
+                apply_operator()
+            operators.append(tok)
+            advance()
+        elif tok == "(":
+            operators.append(tok)
+            advance()
+        elif tok == ")":
+            while operators and operators[-1] != "(":
+                apply_operator()
+            operators.pop()  # Remove "("
+            advance()
+        else:
+            break
+
+    while operators:
+        apply_operator()
+
+    return operands[0] if operands else None
+
+def inorder_traversal(node):
+    if node is None:
+        return
+    inorder_traversal(node.left)
+    print(f"{node.value}", end=' ')
+    inorder_traversal(node.right)
+
+
+
 # =====================
 # TOKEN LOADING (JSON)
 # =====================
@@ -168,6 +226,8 @@ def define_stmt():
 
 
 def set_stmt():
+    global index
+
     match_token("set")
     identifier = current_token()
     validate_identifier(identifier)
@@ -176,7 +236,40 @@ def set_stmt():
     advance()
 
     match_token("=")
-    expr()
+
+    print("DEBUG: Starting expression collection at:", current_token())
+
+    expr_tokens = []
+    while index < len(tokens):
+        tok = tokens[index]
+        token_type = tok["Type"]
+        token_val = str(tok["Value"])
+
+        if token_type in ("NUMBER", "IDENTIFIER", "OP") or token_val in ("+", "-", "*", "/", "(", ")", "="):
+            expr_tokens.append(token_val)
+            index += 1
+        else:
+            break
+
+    print("Collected expression tokens:", expr_tokens)
+
+    temp_tokens = [{"Type": "EXPR", "Value": val} for val in expr_tokens]
+    old_tokens = tokens[:]
+    old_index = index
+
+    tokens[:] = temp_tokens
+    index = 0
+
+    tree = build_expr_tree()
+
+    print("Inorder Traversal of Expression:")
+    inorder_traversal(tree)
+    print()
+
+    tokens[:] = old_tokens
+    index = old_index
+
+
 
 def display_stmt():
     match_token("display")
@@ -203,15 +296,18 @@ def display_stmt():
     match_token("display")
 
     while True:
-        token = current_token()
-        if token.startswith('"') and token.endswith('"'):
+        token_obj = tokens[index]
+        token_type = token_obj["Type"]
+        token_value = token_obj["Value"]
+
+        if token_type == "STRING_LITERAL":
             advance()
-        elif token.isidentifier():
-            if not identifierExists(token):
-                raise SyntaxError(f"Undeclared identifier in display: {token}")
+        elif token_type == "IDENTIFIER":
+            if not identifierExists(token_value):
+                raise SyntaxError(f"Undeclared identifier in display: {token_value}")
             advance()
         else:
-            raise SyntaxError(f"Invalid display argument: {token}")
+            raise SyntaxError(f"Invalid display argument: {token_value}")
 
         if current_token() == ",":
             advance()
@@ -223,26 +319,34 @@ def exit_stmt():
 
 
 def stmt():
-    token = current_token()
-    if token == "define":
+    token_type = tokens[index]['Type']
+    token_value = tokens[index]['Value']
+
+    if token_value == "define":
         define_stmt()
-    elif token == "set":
+    elif token_value == "set":
         set_stmt()
-    elif token == "display":
+    elif token_value == "display":
         display_stmt()
-    elif token == "if":
+    elif token_value == "if":
         if_stmt()
-    elif token == "while":
+    elif token_value == "while":
         while_stmt()
-    elif token == "exit":
+    elif token_value == "exit":
         exit_stmt()
     else:
-        raise SyntaxError(f"Unexpected statement start: {token}")
+        raise SyntaxError(f"Unexpected statement start: {token_value}")
 
 
 def stmt_list():
-    while current_token() in ("define", "set", "display", "if", "while"):
-        stmt()
+    while index < len(tokens):
+        token_value = current_token()
+        token_type = tokens[index]["Type"]
+
+        if token_value in ("define", "set", "display", "if", "while", "exit") and token_type == "KEYWORD":
+            stmt()
+        else:
+            advance()
 
 def begin():
     stmt_list()

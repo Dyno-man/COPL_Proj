@@ -253,6 +253,54 @@
     },
     {
         "Type": "KEYWORD",
+        "Value": "define"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "y"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "double"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "define"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "z"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "type"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "double"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "KEYWORD",
         "Value": "begin"
     },
     {
@@ -272,7 +320,51 @@
         "Value": "\\n"
     },
     {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "set"
+    },
+    {
         "Type": "IDENTIFIER",
+        "Value": "y"
+    },
+    {
+        "Type": "OP",
+        "Value": "="
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 5
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "set"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "z"
+    },
+    {
+        "Type": "OP",
+        "Value": "="
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 10
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "KEYWORD",
         "Value": "set"
     },
     {
@@ -284,36 +376,24 @@
         "Value": "="
     },
     {
+        "Type": "IDENTIFIER",
+        "Value": "y"
+    },
+    {
+        "Type": "OP",
+        "Value": "+"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "z"
+    },
+    {
+        "Type": "OP",
+        "Value": "*"
+    },
+    {
         "Type": "NUMBER",
-        "Value": 45.95
-    },
-    {
-        "Type": "KEYWORD",
-        "Value": "//"
-    },
-    {
-        "Type": "IDENTIFIER",
-        "Value": "assigns"
-    },
-    {
-        "Type": "IDENTIFIER",
-        "Value": "a"
-    },
-    {
-        "Type": "KEYWORD",
-        "Value": "value"
-    },
-    {
-        "Type": "KEYWORD",
-        "Value": "to"
-    },
-    {
-        "Type": "IDENTIFIER",
-        "Value": "variable"
-    },
-    {
-        "Type": "IDENTIFIER",
-        "Value": "x"
+        "Value": 2
     },
     {
         "Type": "NEWLINE",
