@@ -13,7 +13,7 @@ DELIMITERS = SCLTokens.DELIMITERS
 IDENTIFIERS = SCLTokens.IDENTIFIERS
 
 index = 0
-file = "welcome.scl_TOKEN_JSON.json"
+file = "SCL/welcome.scl_TOKEN_JSON.json"
 tokens = []
 
 class Node:
@@ -351,6 +351,13 @@ def stmt_list():
 def begin():
     stmt_list()
 
+def start():
+    token_list = []
+    for token in tokens:
+        token_list.append(token)
+        print(token)
+    begin()
+    return token_list
 # ===================
 # EXECUTION / DEBUG
 # ===================

@@ -2,7 +2,9 @@ import sys
 import os
 from scl_scanner import tokenize
 from jsonifier import create_json_doc
-from parser import loadJSON, begin, tokens
+from executor import *
+
+#For the purposes of this assignment to run the code do python3 main.py SCL/welcome.scl
 
 def main():
     if len(sys.argv) < 2:
@@ -22,6 +24,7 @@ def main():
     # Run scanner/tokenizer
     tokens_list, identifiers = tokenize(code)
     create_json_doc(tokens_list, scl_file)
+    from parser import loadJSON, start, tokens
 
     # Load tokens into the parser
     json_file = scl_file + "_Token_JSON.json"
@@ -29,7 +32,13 @@ def main():
 
     # Parse and execute the code
     print("=== Parsing & Execution ===")
-    begin()
+    token_list = start()
+    # for token in token_list:
+    #     print(token)
+    print("=== Done ===")
+
+    print("=== Starting Executor ===")
+    start_executor(token_list)
     print("=== Done ===")
 
 if __name__ == "__main__":

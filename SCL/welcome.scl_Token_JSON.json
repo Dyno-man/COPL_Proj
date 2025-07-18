@@ -188,7 +188,7 @@
         "Value": "return"
     },
     {
-        "Type": "IDENTIFIER",
+        "Type": "KEYWORD",
         "Value": "type"
     },
     {
@@ -224,7 +224,7 @@
         "Value": "of"
     },
     {
-        "Type": "IDENTIFIER",
+        "Type": "KEYWORD",
         "Value": "type"
     },
     {
@@ -264,7 +264,7 @@
         "Value": "of"
     },
     {
-        "Type": "IDENTIFIER",
+        "Type": "KEYWORD",
         "Value": "type"
     },
     {
@@ -288,7 +288,31 @@
         "Value": "of"
     },
     {
+        "Type": "KEYWORD",
+        "Value": "type"
+    },
+    {
         "Type": "IDENTIFIER",
+        "Value": "double"
+    },
+    {
+        "Type": "NEWLINE",
+        "Value": "\\n"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "define"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "w"
+    },
+    {
+        "Type": "KEYWORD",
+        "Value": "of"
+    },
+    {
+        "Type": "KEYWORD",
         "Value": "type"
     },
     {
@@ -320,6 +344,22 @@
         "Value": "\\n"
     },
     {
+        "Type": "KEYWORD",
+        "Value": "set"
+    },
+    {
+        "Type": "IDENTIFIER",
+        "Value": "z"
+    },
+    {
+        "Type": "OP",
+        "Value": "="
+    },
+    {
+        "Type": "NUMBER",
+        "Value": 10
+    },
+    {
         "Type": "NEWLINE",
         "Value": "\\n"
     },
@@ -330,26 +370,6 @@
     {
         "Type": "IDENTIFIER",
         "Value": "y"
-    },
-    {
-        "Type": "OP",
-        "Value": "="
-    },
-    {
-        "Type": "NUMBER",
-        "Value": 5
-    },
-    {
-        "Type": "NEWLINE",
-        "Value": "\\n"
-    },
-    {
-        "Type": "KEYWORD",
-        "Value": "set"
-    },
-    {
-        "Type": "IDENTIFIER",
-        "Value": "z"
     },
     {
         "Type": "OP",
@@ -381,7 +401,7 @@
     },
     {
         "Type": "OP",
-        "Value": "+"
+        "Value": "*"
     },
     {
         "Type": "IDENTIFIER",
@@ -389,7 +409,7 @@
     },
     {
         "Type": "OP",
-        "Value": "*"
+        "Value": "+"
     },
     {
         "Type": "NUMBER",
